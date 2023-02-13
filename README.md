@@ -17,8 +17,9 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 # Usage
 The program can be run as follows:
 
-python3 app/main.py <arch>
+`python3 app/main.py <arch>`
 
+### output:
 ```
 python3 app/main.py amd64
 1. devel/piglit: 51784
@@ -41,8 +42,9 @@ Run the tests-setup.sh script first to download the Content files to the tests d
 
 Testing can be run as follows:
 
-python3 -m unittest tests/main_test.py
+`python3 -m unittest tests/main_test.py`
 
+### output:
 ```
 python3 -m unittest tests/main_test.py
 .Testing arch i386 ---->
