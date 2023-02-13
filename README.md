@@ -37,6 +37,8 @@ python3 app/main.py amd64
 # Test
 There are two unit tests. One to test the download functionality by comparing the returned hash output of the downloaded file to the known hash. And a second the test that the actual parsing and statitics are correct by comparing program output to pre-computed output.
 
+Run the tests-setup.sh script first to download the Content files to the tests directory (they were too large to include in git)
+
 Testing can be run as follows:
 
 python3 -m unittest tests/main_test.py
